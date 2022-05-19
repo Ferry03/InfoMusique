@@ -1,6 +1,6 @@
 # InfoMusique
 Nous permet d'afficher les informations sur les musiques
-Info sur les musiques : utilisé l’api
+Utilisé l’api
 https://developer.musixmatch.com/documentation pour afficher les
 informations sur les musiques. (Ferry, Abdoulaye, Cathy)
 ❖ Lorsque l’utilisateur arrive il doit se connecter ou créer un
