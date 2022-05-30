@@ -2,57 +2,12 @@
   "users": [
     {
       "email": "ferrykouemo01@gmail.com",
-      "password": "$2a$10$yN.ud0wkAdubHjwcnh5Qx.Xjabyw56zEu8CyrwBM8NXlVFOM4a3Ry",
-      "prenom": "ferry",
-      "username": "Ferry00",
-      "date": "2022-05-06",
+      "password": "$2a$10$5L1GlSWg3T4aJ935BG0DgOdWJHbMtYrfIvW3udsV.C7ZW.Y3PHsOu",
       "nom": "kouemo",
+      "prenom": "ferry",
+      "Date": "2022-05-20",
+      "username": "ferry",
       "id": 1
-    },
-    {
-      "email": "naruto@gmail.com",
-      "password": "$2a$10$0wPxTLGdACPQgYkXEpcEb.ZNxiclqVZGHEpYIyfEI237mOhXoBwDa",
-      "prenom": "naruto",
-      "username": "nar1",
-      "date": "2022-05-02",
-      "nom": "Uzumaki",
-      "id": 2
-    },
-    {
-      "email": "asas@gmail.com",
-      "password": "$2a$10$xL/iLKt.Ec3EYpRPMqc54eyrAcqAxyaIMhaSLZ5zCeMmqGndDzmOq",
-      "prenom": "h",
-      "username": "asa",
-      "date": "2022-05-02",
-      "nom": "hg",
-      "id": 3
-    },
-    {
-      "email": "axxx@gmail.com",
-      "password": "$2a$10$YYDEooKk3tdFOE2uVfLdU.XT7PIvgn7A6AmzOCM9hInHPCaIRqhp2",
-      "prenom": "aa",
-      "username": "axx",
-      "date": "2022-05-03",
-      "nom": "vv",
-      "id": 4
-    },
-    {
-      "email": "323@gmail.com",
-      "password": "$2a$10$l97VjA0O2gh.SZBY0XJyBepRdYi5hdNvmlZbsD2d3zPeYrh8fOQjG",
-      "prenom": "fff",
-      "username": "123",
-      "date": "2022-05-21",
-      "nom": "ff",
-      "id": 5
-    },
-    {
-      "email": "user@gmail.com",
-      "password": "$2a$10$ck2g1jZKnqXeQ1LTkoc72eKX9FH7P8eiLmARStnc03BTa7ceCd8Uq",
-      "prenom": "car",
-      "username": "user",
-      "date": "2022-05-16",
-      "nom": "dd",
-      "id": 6
     }
   ]
 }

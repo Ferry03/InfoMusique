@@ -1,8 +1,29 @@
+import { useNavigate } from 'react-router-dom'
 import {useState} from 'react'
 import { Form, Button ,Container,Row,Col} from 'react-bootstrap'
 import Navigation from './Navigation';
+import { Link } from 'react-router-dom'
 
 const Login =()=>{
+
+    const navigate = useNavigate();
+
+    // const [error, seterror] = useState('');
+    // const [submitOk, setsubmitOk] = useState(false)
+
+
+	// const loginError =(infoData)=> {
+	// 	if(infoData === 'Email format is invalid'){
+	// 		seterror('Adresse mail invalide')
+	// 	}else if(infoData === 'Cannot find user'){
+	// 		seterror('Utilisateur invalide')
+	// 	}else if(infoData === 'Incorrect password'){
+	// 		seterror('password invalide')
+	// 	}else{
+	// 		navigate('home')
+	// 	}
+	// 	console.log(infoData)
+	// }
 
     const [formData, setFormData] = useState({
         email: '', // required
@@ -16,19 +37,17 @@ const Login =()=>{
             body: JSON.stringify(formData)
         })
         .then(res => res.json())
-        .then(data => console.log(data.user))
+        .then(data => console.log(data.user)
+        )
+    //     setsubmitOk(true)
+    // console.log(submitOk);
     }
 
     function handleChange(e) {
         setFormData({...formData, [e.target.name] : e.target.value})
     }
     return(
-        // <div className="main">
-        //     <div className="form">
-
-        //     </div>
-        // </div>
-
+      
 
        <>
 
@@ -39,18 +58,19 @@ const Login =()=>{
                     <Form onSubmit={e => handleSubmit(e)}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Control type="email" placeholder="Enter email"
-                            value={formData.email} name='email' onChange={e => handleChange(e)}  />
+                            value={formData.email} name='email' onChange={e => handleChange(e)} required />
                            
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Control type="password" placeholder="Password" 
-                            value={formData.password} name='password' onChange={e => handleChange(e)} />
+                            value={formData.password} name='password' onChange={e => handleChange(e)} required />
                         </Form.Group>
-                        
-                        <Button variant="success btn-primary" type="submit">
+
+
+                       <Link to="/"> <Button variant="success btn-primary" type="submit">
                             Submit
-                        </Button>
+                        </Button></Link>
                     </Form>
                     </Col>
                 </Row>
